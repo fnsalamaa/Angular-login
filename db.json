@@ -1,0 +1,65 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe",
+      "email": "jane@example.com"
+    },
+    {
+      "id": "22bb",
+      "username": "a",
+      "email": "a",
+      "role": "a",
+      "password": "123"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "My first post",
+      "author": "John Doe"
+    },
+    {
+      "id": 2,
+      "title": "Another post",
+      "author": "Jane Doe"
+    }
+  ],
+  "signupUsers": [
+    {
+      "id": "a7a6",
+      "username": "fnsalamaa",
+      "email": "fnsalama12@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "32fa",
+      "username": "user",
+      "email": "user02@gmail.com",
+      "password": "abcde"
+    },
+    {
+      "id": "7485",
+      "username": "user1",
+      "email": "user1@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "7b6c",
+      "username": "user2",
+      "email": "user02@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "eaca",
+      "username": "user2",
+      "email": "user02@gmail.com",
+      "password": "12345"
+    }
+  ]
+}

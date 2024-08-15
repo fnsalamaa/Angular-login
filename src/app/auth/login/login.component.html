@@ -1,0 +1,48 @@
+<div class="auth-main" style="background: linear-gradient(to right, #74ebd5, #acb6e5); height: 100vh;">
+    <div class="d-flex justify-content-center align-items-center vh-100">
+        <div class="card my-3 shadow-lg" style="border-radius: 15px; width: 700px; padding: 20px;">
+            <div class="card-body">
+                <a href="#" class="d-flex justify-content-center mb-4">
+                    <img src="assets/images/logo.png" style="max-width: 350px;" />
+                </a>
+                <div class="row">
+                    <div class="d-flex justify-content-center">
+                        <div class="auth-header">
+                            <h3 class="text-secondary mt-3" style="font-family: 'Poppins', sans-serif;"><b>Hi, Welcome Back!</b></h3>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <form [formGroup]="loginForm" (ngSubmit)="login()">
+
+                
+                <div class="form-floating mb-3">
+                    <input formControlName="username" class="form-control" id="floatingInput" placeholder="Username" style="border-radius: 0;" />
+                    <label for="floatingInput">Username</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input formControlName="password" type="password" class="form-control" id="password" placeholder="Password" style="border-radius: 0;" />
+                    <label for="password">Password</label>
+                </div>
+            </form>
+                <div class="d-flex mt-1 justify-content-between">
+                    <div class="form-check">
+                        <input class="form-check-input input-primary" type="checkbox" id="customCheckc1" checked="" />
+                        <label class="form-check-label text-muted" for="customCheckc1">Remember me</label>
+                    </div>
+                    <h5 class="text-secondary">
+                        <a href="javascript:" class="text-secondary">Forgot Password?</a>
+                    </h5>
+                </div>
+                <div class="d-grid mt-4">
+                    <button (click)="login()"   type="button" class="btn btn-secondary" style="border-radius: 0; font-family: 'Poppins', sans-serif;">Sign In</button>
+                </div>
+                <br>
+                <h5 class="d-flex justify-content-center">
+                    <a href="/signup">Don't have an account?</a>
+                </h5>
+            </div>
+        </div>
+    </div>
+</div>
